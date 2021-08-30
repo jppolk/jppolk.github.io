@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body {
+	background-color: #010000;
+	align-content: center;
+	background-image: url("polkTest.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	
+}
+.mainImage {
+	display: block;
+  	margin: auto;
+  	width: auto;
+	height: auto;
+	overflow: hidden;
+	max-width: none;
+}
