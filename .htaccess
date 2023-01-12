@@ -20,3 +20,9 @@ ErrorDocument 503 https://infinityfree.net/errors/503/
 
 RewriteCond %{QUERY_STRING} ^(.*)i=[^&]+(.*)$ [NC]
 RewriteRule ^(.*)$ /$1?%1%2 [R=301,L]
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.domain\.com [NC]
+RewriteRule ^(.*)$ http://domain.com/$1 [L,R=301]
+</IfModule>
