@@ -209,11 +209,155 @@
 .polkio-text18 {
   color: #a8d6ef;
 }
-.polkio-links {
+.polkio-frame1965 {
   top: 317px;
   left: 0px;
   right: 0px;
-  width: 403px;
+  width: 248px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.polkio-text20 {
+  color: var(--dl-color-dark-lightgray);
+  height: auto;
+  opacity: 0.60;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 18px;
+  text-decoration: none;
+}
+.polkio-social-link {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.polkio-link {
+  display: contents;
+}
+.polkio-icon-link {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 8px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.polkio-insta {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.polkio-group {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.polkio-vector {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.polkio-link01 {
+  display: contents;
+}
+.polkio-icon-link1 {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 8px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.polkio-twitter {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.polkio-icon-link2 {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 8px;
+  border-radius: 12px;
+}
+.polkio-link02 {
+  display: contents;
+}
+.polkio-linkedin {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  text-decoration: none;
+}
+.polkio-link03 {
+  display: contents;
+}
+.polkio-icon-link3 {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 12px;
+  padding-bottom: 16px;
+  text-decoration: none;
+}
+.polkio-github {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.polkio-links {
+  top: 454px;
+  left: 0px;
+  right: 0px;
+  width: 400px;
   margin: auto;
   display: flex;
   position: absolute;
@@ -240,8 +384,7 @@
   margin-bottom: 16px;
 }
 .polkio-frame1966 {
-  gap: var(--dl-space-space-halfunit);
-  width: 400px;
+  width: 100%;
   height: 71px;
   display: flex;
   position: relative;
@@ -249,33 +392,64 @@
   align-items: center;
   flex-shrink: 0;
   border-color: transparent;
-  margin-bottom: 16px;
-  flex-direction: column;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
 }
-.polkio-link {
+.polkio-container3 {
+  top: 0px;
+  left: 0px;
+  width: 202px;
+  height: 71px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.polkio-link04 {
   display: contents;
 }
 .polkio-image1 {
-  width: 202px;
-  height: 71px;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  align-self: stretch;
   border-color: transparent;
   border-radius: 12px;
   text-decoration: none;
 }
-.polkio-link01 {
+.polkio-container4 {
+  top: 0px;
+  right: 0px;
+  width: 187px;
+  height: 71px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.polkio-link05 {
   display: contents;
 }
 .polkio-image2 {
-  width: 187px;
-  height: 71px;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  align-self: stretch;
   border-color: transparent;
   border-radius: 13px;
   text-decoration: none;
 }
-.polkio-link02 {
+.polkio-link06 {
   display: contents;
 }
-.polkio-link03 {
+.polkio-link07 {
   width: 358px;
   display: flex;
   padding: 16px 20px;
@@ -315,7 +489,7 @@
   position: absolute;
   border-color: transparent;
 }
-.polkio-group {
+.polkio-group1 {
   top: 6.08695650100708px;
   left: 5.217391490936279px;
   width: 9.738014221191406px;
@@ -337,14 +511,14 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.polkio-vector {
+.polkio-vector1 {
   top: 0px;
   left: 0px;
   width: 10px;
   height: 8px;
   position: absolute;
 }
-.polkio-text20 {
+.polkio-text22 {
   color: var(--dl-color-dark-primarytext);
   height: auto;
   align-self: auto;
@@ -359,10 +533,10 @@
   opacity: 0.70;
   position: relative;
 }
-.polkio-link04 {
+.polkio-link08 {
   display: contents;
 }
-.polkio-link05 {
+.polkio-link09 {
   width: 358px;
   display: flex;
   padding: 16px 20px;
@@ -401,14 +575,14 @@
   position: absolute;
   border-color: transparent;
 }
-.polkio-vector1 {
+.polkio-vector2 {
   top: 6.000045299530029px;
   left: 4.400204181671143px;
   width: 11px;
   height: 8px;
   position: absolute;
 }
-.polkio-text21 {
+.polkio-text23 {
   color: var(--dl-color-dark-primarytext);
   height: auto;
   align-self: auto;
@@ -432,7 +606,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.polkio-text22 {
+.polkio-text24 {
   color: var(--dl-color-dark-lightgray);
   height: auto;
   opacity: 0.60;
@@ -448,10 +622,10 @@
   margin-bottom: 16px;
   text-decoration: none;
 }
-.polkio-link06 {
+.polkio-link10 {
   display: contents;
 }
-.polkio-link07 {
+.polkio-link11 {
   width: 358px;
   display: flex;
   padding: 16px 20px;
@@ -491,14 +665,14 @@
   position: absolute;
   border-color: transparent;
 }
-.polkio-vector2 {
+.polkio-vector3 {
   top: 6.500049591064453px;
   left: 8.05961799621582px;
   width: 10px;
   height: 13px;
   position: absolute;
 }
-.polkio-text24 {
+.polkio-text25 {
   color: var(--dl-color-dark-primarytext);
   height: auto;
   align-self: auto;
@@ -513,10 +687,10 @@
   opacity: 0.70;
   position: relative;
 }
-.polkio-link08 {
+.polkio-link12 {
   display: contents;
 }
-.polkio-link09 {
+.polkio-link13 {
   width: 358px;
   display: flex;
   padding: 16px 20px;
@@ -555,7 +729,7 @@
   position: absolute;
   border-color: transparent;
 }
-.polkio-text26 {
+.polkio-text27 {
   color: var(--dl-color-dark-primarytext);
   height: auto;
   align-self: auto;
@@ -568,150 +742,6 @@
   width: 20px;
   height: 20px;
   opacity: 0.70;
-  position: relative;
-}
-.polkio-frame1965 {
-  top: 871px;
-  left: 0px;
-  right: 0px;
-  width: 248px;
-  margin: auto;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  border-color: transparent;
-  flex-direction: column;
-}
-.polkio-text28 {
-  color: var(--dl-color-dark-lightgray);
-  height: auto;
-  opacity: 0.60;
-  font-size: 12px;
-  align-self: auto;
-  font-style: Bold;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 18px;
-  text-decoration: none;
-}
-.polkio-social-link {
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  border-color: transparent;
-}
-.polkio-link10 {
-  display: contents;
-}
-.polkio-icon-link {
-  display: flex;
-  padding: 16px;
-  position: relative;
-  box-sizing: content-box;
-  align-items: flex-start;
-  border-color: transparent;
-  margin-right: 8px;
-  border-radius: 12px;
-  text-decoration: none;
-}
-.polkio-insta {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.polkio-group1 {
-  top: 0px;
-  left: 0px;
-  width: 24px;
-  height: 24px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.polkio-vector3 {
-  top: 0px;
-  left: 0px;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-}
-.polkio-link11 {
-  display: contents;
-}
-.polkio-icon-link1 {
-  display: flex;
-  padding: 16px;
-  position: relative;
-  box-sizing: content-box;
-  align-items: flex-start;
-  border-color: transparent;
-  margin-right: 8px;
-  border-radius: 12px;
-  text-decoration: none;
-}
-.polkio-twitter {
-  width: 24px;
-  height: 24px;
-  position: relative;
-}
-.polkio-icon-link2 {
-  display: flex;
-  padding: 16px;
-  position: relative;
-  box-sizing: content-box;
-  align-items: flex-start;
-  border-color: transparent;
-  margin-right: 8px;
-  border-radius: 12px;
-}
-.polkio-link12 {
-  display: contents;
-}
-.polkio-linkedin {
-  width: 24px;
-  height: 24px;
-  position: relative;
-  text-decoration: none;
-}
-.polkio-link13 {
-  display: contents;
-}
-.polkio-icon-link3 {
-  display: flex;
-  padding: 16px;
-  position: relative;
-  box-sizing: content-box;
-  align-items: flex-start;
-  border-color: transparent;
-  border-radius: 12px;
-  padding-bottom: 16px;
-  text-decoration: none;
-}
-.polkio-github {
-  width: 24px;
-  height: 24px;
   position: relative;
 }
 @media(max-width: 991px) {
