@@ -133,9 +133,11 @@
 }
 .polkio-p-o-l-k-i-o1 {
   top: 0px;
-  left: 153px;
+  left: 0px;
+  right: 0px;
   width: 215px;
   height: 95px;
+  margin: auto;
   position: absolute;
 }
 .polkio-short-bio {
@@ -384,19 +386,21 @@
   margin-bottom: 16px;
 }
 .polkio-frame1966 {
-  width: 100%;
+  width: 400px;
   height: 71px;
   display: flex;
   position: relative;
-  flex-wrap: wrap;
   align-items: center;
   flex-shrink: 0;
   border-color: transparent;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 }
-.polkio-container3 {
+.polkio-link04 {
+  display: contents;
+}
+.polkio-link05 {
   top: 0px;
   left: 0px;
   width: 202px;
@@ -406,9 +410,7 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-}
-.polkio-link04 {
-  display: contents;
+  text-decoration: none;
 }
 .polkio-image1 {
   top: 0px;
@@ -419,9 +421,11 @@
   align-self: stretch;
   border-color: transparent;
   border-radius: 12px;
-  text-decoration: none;
 }
-.polkio-container4 {
+.polkio-link06 {
+  display: contents;
+}
+.polkio-link07 {
   top: 0px;
   right: 0px;
   width: 187px;
@@ -431,9 +435,7 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-}
-.polkio-link05 {
-  display: contents;
+  text-decoration: none;
 }
 .polkio-image2 {
   top: 0px;
@@ -444,12 +446,11 @@
   align-self: stretch;
   border-color: transparent;
   border-radius: 13px;
-  text-decoration: none;
 }
-.polkio-link06 {
+.polkio-link08 {
   display: contents;
 }
-.polkio-link07 {
+.polkio-link09 {
   width: 358px;
   display: flex;
   padding: 16px 20px;
@@ -533,10 +534,10 @@
   opacity: 0.70;
   position: relative;
 }
-.polkio-link08 {
+.polkio-link10 {
   display: contents;
 }
-.polkio-link09 {
+.polkio-link11 {
   width: 358px;
   display: flex;
   padding: 16px 20px;
@@ -622,10 +623,10 @@
   margin-bottom: 16px;
   text-decoration: none;
 }
-.polkio-link10 {
+.polkio-link12 {
   display: contents;
 }
-.polkio-link11 {
+.polkio-link13 {
   width: 358px;
   display: flex;
   padding: 16px 20px;
@@ -687,10 +688,10 @@
   opacity: 0.70;
   position: relative;
 }
-.polkio-link12 {
+.polkio-link14 {
   display: contents;
 }
-.polkio-link13 {
+.polkio-link15 {
   width: 358px;
   display: flex;
   padding: 16px 20px;
@@ -841,10 +842,7 @@
     width: auto;
   }
   .polkio-short-bio {
-    left: 0px;
-    right: 0px;
     width: auto;
-    margin: auto;
     flex-direction: row;
   }
   .polkio-text04 {
