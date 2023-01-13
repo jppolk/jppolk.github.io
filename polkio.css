@@ -1,0 +1,827 @@
+.polkio-container {
+  min-height: 100vh;
+}
+.polkio-polkio {
+  width: 100%;
+  height: 1765px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(10, 10, 13, 1);
+}
+.polkio-headergradient {
+  top: 0px;
+  flex: 1;
+  left: 0px;
+  right: 0px;
+  width: auto;
+  height: 670px;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.polkio-container1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 368.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.polkio-image {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.polkio-footergradient {
+  top: 1106px;
+  left: 0px;
+  right: 0px;
+  width: auto;
+  height: 659px;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.polkio-container2 {
+  top: 0px;
+  flex: 1;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.polkio-image1 {
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
+.polkio-credit {
+  top: 1638px;
+  left: 0px;
+  right: 0px;
+  width: 161px;
+  margin: auto;
+  display: flex;
+  opacity: 0.80;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+}
+.polkio-text {
+  color: var(--dl-color-dark-lightgray);
+  height: auto;
+  align-self: auto;
+  text-align: right;
+  line-height: 24px;
+  margin-right: 2px;
+  margin-bottom: 0;
+}
+.polkio-text02 {
+  color: var(--dl-color-dark-lightgray);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.polkio-header {
+  top: 86px;
+  left: 0px;
+  right: 0px;
+  width: 520px;
+  height: 192px;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.polkio-p-o-l-k-i-o1 {
+  top: 0px;
+  left: 153px;
+  width: 215px;
+  height: 95px;
+  position: absolute;
+}
+.polkio-short-bio {
+  top: 126px;
+  left: 0px;
+  width: 520px;
+  height: 66px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.polkio-text04 {
+  width: 520px;
+  height: auto;
+  position: absolute;
+  font-size: 21px;
+  align-self: auto;
+  font-style: Light;
+  text-align: center;
+  font-family: Bahnschrift;
+  font-weight: 300;
+  line-height: 33px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.polkio-text05 {
+  color: #a8d6f0;
+}
+.polkio-text07 {
+  color: #5fa5e5;
+}
+.polkio-text08 {
+  color: #7d9cae;
+}
+.polkio-text09 {
+  color: #a8d6ef;
+}
+.polkio-text10 {
+  color: #dbb987;
+}
+.polkio-text11 {
+  color: #dbb987;
+}
+.polkio-text12 {
+  color: #7d9cae;
+}
+.polkio-text13 {
+  color: #25d9a3;
+}
+.polkio-text14 {
+  color: #25d9a3;
+}
+.polkio-text15 {
+  color: #7d9cae;
+}
+.polkio-text16 {
+  color: #de305a;
+  font-style: normal;
+}
+.polkio-text18 {
+  color: #a8d6ef;
+}
+.polkio-links {
+  top: 317px;
+  left: 0px;
+  right: 0px;
+  width: 403px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.polkio-main {
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 35px;
+  flex-direction: column;
+  justify-content: center;
+}
+.polkio-img-link {
+  width: 400px;
+  height: 106px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.polkio-frame1966 {
+  gap: var(--dl-space-space-halfunit);
+  width: 400px;
+  height: 71px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 16px;
+  flex-direction: column;
+}
+.polkio-link {
+  display: contents;
+}
+.polkio-image1 {
+  width: 202px;
+  height: 71px;
+  border-color: transparent;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.polkio-link01 {
+  display: contents;
+}
+.polkio-image2 {
+  width: 187px;
+  height: 71px;
+  border-color: transparent;
+  border-radius: 13px;
+  text-decoration: none;
+}
+.polkio-link02 {
+  display: contents;
+}
+.polkio-link03 {
+  width: 358px;
+  display: flex;
+  padding: 16px 20px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 0.20000000298023224);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.polkio-icontext {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+}
+.polkio-social-media-vimeo {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 10px;
+}
+.polkio-logo-container {
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-color: transparent;
+}
+.polkio-group {
+  top: 6.08695650100708px;
+  left: 5.217391490936279px;
+  width: 9.738014221191406px;
+  height: 7.96189546585083px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.polkio-vector {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 8px;
+  position: absolute;
+}
+.polkio-text20 {
+  color: var(--dl-color-dark-primarytext);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.polkio-right {
+  width: 20px;
+  height: 20px;
+  opacity: 0.70;
+  position: relative;
+}
+.polkio-link04 {
+  display: contents;
+}
+.polkio-link05 {
+  width: 358px;
+  display: flex;
+  padding: 16px 20px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 0.20000000298023224);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.polkio-icontext1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+}
+.polkio-social-media-youtube {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 10px;
+}
+.polkio-logo-container1 {
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-color: transparent;
+}
+.polkio-vector1 {
+  top: 6.000045299530029px;
+  left: 4.400204181671143px;
+  width: 11px;
+  height: 8px;
+  position: absolute;
+}
+.polkio-text21 {
+  color: var(--dl-color-dark-primarytext);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.polkio-right1 {
+  width: 20px;
+  height: 20px;
+  opacity: 0.70;
+  position: relative;
+}
+.polkio-other {
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.polkio-text22 {
+  color: var(--dl-color-dark-lightgray);
+  height: auto;
+  opacity: 0.60;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+.polkio-link06 {
+  display: contents;
+}
+.polkio-link07 {
+  width: 358px;
+  display: flex;
+  padding: 16px 20px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 0.20000000298023224);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.polkio-icontext2 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+}
+.polkio-social-media-pinterest {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 10px;
+}
+.polkio-logo-container2 {
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  border-color: transparent;
+}
+.polkio-vector2 {
+  top: 6.500049591064453px;
+  left: 8.05961799621582px;
+  width: 10px;
+  height: 13px;
+  position: absolute;
+}
+.polkio-text24 {
+  color: var(--dl-color-dark-primarytext);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.polkio-anglearrow {
+  width: 20px;
+  height: 20px;
+  opacity: 0.70;
+  position: relative;
+}
+.polkio-link08 {
+  display: contents;
+}
+.polkio-link09 {
+  width: 358px;
+  display: flex;
+  padding: 16px 20px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 0.20000000298023224);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.polkio-icontext3 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+}
+.polkio-imgicongumroad {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 10px;
+}
+.polkio-gumroad {
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-color: transparent;
+}
+.polkio-text26 {
+  color: var(--dl-color-dark-primarytext);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.polkio-anglearrow1 {
+  width: 20px;
+  height: 20px;
+  opacity: 0.70;
+  position: relative;
+}
+.polkio-frame1965 {
+  top: 871px;
+  left: 0px;
+  right: 0px;
+  width: 248px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.polkio-text28 {
+  color: var(--dl-color-dark-lightgray);
+  height: auto;
+  opacity: 0.60;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 18px;
+  text-decoration: none;
+}
+.polkio-social-link {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.polkio-link10 {
+  display: contents;
+}
+.polkio-icon-link {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 8px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.polkio-insta {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.polkio-group1 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.polkio-vector3 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.polkio-link11 {
+  display: contents;
+}
+.polkio-icon-link1 {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 8px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.polkio-twitter {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.polkio-icon-link2 {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 8px;
+  border-radius: 12px;
+}
+.polkio-link12 {
+  display: contents;
+}
+.polkio-linkedin {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  text-decoration: none;
+}
+.polkio-link13 {
+  display: contents;
+}
+.polkio-icon-link3 {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 12px;
+  padding-bottom: 16px;
+  text-decoration: none;
+}
+.polkio-github {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+@media(max-width: 991px) {
+  .polkio-headergradient {
+    flex: 1;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    margin: auto;
+  }
+  .polkio-container1 {
+    flex: 1;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    margin: auto;
+  }
+  .polkio-image {
+    top: 0px;
+    left: 0px;
+    height: 100%;
+  }
+  .polkio-footergradient {
+    width: auto;
+  }
+  .polkio-image1 {
+    height: 100%;
+  }
+  .polkio-header {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .polkio-text04 {
+    left: 0px;
+    right: 0px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 33px;
+    text-decoration: none;
+  }
+  .polkio-text05 {
+    color: #a8d6f0;
+  }
+  .polkio-text06 {
+    color: #5fa5e5;
+  }
+  .polkio-text07 {
+    color: #5fa5e5;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .polkio-text08 {
+    color: #7d9cae;
+  }
+  .polkio-text09 {
+    color: #a8d6ef;
+    font-weight: 400;
+  }
+  .polkio-text10 {
+    color: #dbb987;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .polkio-text11 {
+    color: #dbb987;
+    font-weight: 300;
+  }
+  .polkio-text12 {
+    color: #7d9cae;
+  }
+  .polkio-text13 {
+    color: #25d9a3;
+    font-weight: 400;
+  }
+  .polkio-text14 {
+    color: #25d9a3;
+    font-weight: 300;
+  }
+  .polkio-text15 {
+    color: #7d9cae;
+  }
+  .polkio-text16 {
+    color: #e04a6e;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .polkio-text18 {
+    color: #a8d6ef;
+  }
+  .polkio-text19 {
+    color: #a8d6ef;
+  }
+}
+@media(max-width: 479px) {
+  .polkio-header {
+    width: auto;
+  }
+  .polkio-short-bio {
+    left: 0px;
+    right: 0px;
+    width: auto;
+    margin: auto;
+    flex-direction: row;
+  }
+  .polkio-text04 {
+    left: 0px;
+    right: 0px;
+    width: auto;
+    margin: auto;
+    text-align: center;
+  }
+}
