@@ -1,12 +1,13 @@
 .polkio-container {
-  min-height: 100vh;
+  
+ 
 }
 .polkio-polkio {
   width: 100%;
-  height: 1765px;
+  height: 100%;
   display: flex;
   overflow: hidden;
-  position: relative;
+  position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
@@ -18,7 +19,7 @@
   left: 0px;
   right: 0px;
   width: auto;
-  height: 670px;
+  height: 100%;
   margin: auto;
   display: flex;
   overflow: hidden;
@@ -44,16 +45,16 @@
   object-fit: cover;
 }
 .polkio-footergradient {
-  top: 1106px;
   left: 0px;
   right: 0px;
   width: auto;
-  height: 659px;
+  bottom: 0px;
+  height: 100%;
   margin: auto;
   display: flex;
   overflow: hidden;
   position: absolute;
-  align-items: flex-start;
+  align-items: flex-end;
   flex-shrink: 0;
   border-color: transparent;
 }
@@ -67,7 +68,7 @@
   margin: auto;
   display: flex;
   position: absolute;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 .polkio-image1 {
   left: 0px;
@@ -80,10 +81,10 @@
   object-fit: cover;
 }
 .polkio-credit {
-  top: 1638px;
   left: 0px;
   right: 0px;
   width: 161px;
+  bottom: var(--dl-space-space-sixunits);
   margin: auto;
   display: flex;
   opacity: 0.80;
@@ -168,7 +169,7 @@
   align-self: auto;
   font-style: Light;
   text-align: center;
-  font-family: Bahnschrift, Arial, sans-serif;
+  font-family: Bahnschrift;
   font-weight: 300;
   line-height: 33px;
   font-stretch: normal;
@@ -253,11 +254,15 @@
   padding: 16px;
   position: relative;
   box-sizing: content-box;
+  transition: 0.3s;
   align-items: flex-start;
   border-color: transparent;
   margin-right: 8px;
   border-radius: 12px;
   text-decoration: none;
+}
+.polkio-icon-link:hover {
+  background-image: linear-gradient(45deg, rgba(255, 0, 59, 0.13) 0.00%,rgba(0, 151, 222, 0.19) 100.00%);
 }
 .polkio-insta {
   width: 24px;
@@ -306,11 +311,15 @@
   padding: 16px;
   position: relative;
   box-sizing: content-box;
+  transition: 0.3s;
   align-items: flex-start;
   border-color: transparent;
   margin-right: 8px;
   border-radius: 12px;
   text-decoration: none;
+}
+.polkio-icon-link1:hover {
+  background-image: linear-gradient(45deg, rgba(255, 0, 59, 0.13) 0.00%,rgba(0, 151, 222, 0.19) 100.00%);
 }
 .polkio-twitter {
   width: 24px;
@@ -322,10 +331,14 @@
   padding: 16px;
   position: relative;
   box-sizing: content-box;
+  transition: 0.3s;
   align-items: flex-start;
   border-color: transparent;
   margin-right: 8px;
   border-radius: 12px;
+}
+.polkio-icon-link2:hover {
+  background-image: linear-gradient(45deg, rgba(255, 0, 59, 0.13) 0.00%,rgba(0, 151, 222, 0.19) 100.00%);
 }
 .polkio-link02 {
   display: contents;
@@ -344,11 +357,15 @@
   padding: 16px;
   position: relative;
   box-sizing: content-box;
+  transition: 0.3s;
   align-items: flex-start;
   border-color: transparent;
   border-radius: 12px;
   padding-bottom: 16px;
   text-decoration: none;
+}
+.polkio-icon-link3:hover {
+  background-image: linear-gradient(45deg, rgba(255, 0, 59, 0.13) 0.00%,rgba(0, 151, 222, 0.19) 100.00%);
 }
 .polkio-github {
   width: 24px;
@@ -419,8 +436,13 @@
   height: auto;
   position: absolute;
   align-self: stretch;
+  transition: 0.3s;
   border-color: transparent;
   border-radius: 12px;
+}
+.polkio-image1:hover {
+  filter: hue-rotate(160deg) contrast(120%);
+  border-radius: 22px;
 }
 .polkio-link06 {
   display: contents;
@@ -444,8 +466,13 @@
   height: auto;
   position: absolute;
   align-self: stretch;
+  transition: 0.3s;
   border-color: transparent;
   border-radius: 13px;
+}
+.polkio-image2:hover {
+  filter: saturate(70%) hue-rotate(133deg);
+  border-radius: 22px;
 }
 .polkio-link08 {
   display: contents;
@@ -456,15 +483,20 @@
   padding: 16px 20px;
   position: relative;
   box-sizing: content-box;
+  transition: 0.3s;
   align-items: center;
   flex-shrink: 0;
-  border-color: rgba(255, 255, 255, 0.20000000298023224);
+  border-color: rgba(255, 255, 255, 0.05);
   border-style: solid;
   border-width: 1px;
   border-radius: 12px;
   margin-bottom: 16px;
   justify-content: space-between;
   text-decoration: none;
+}
+.polkio-link09:hover {
+  border-style: none;
+  background-image: linear-gradient(90deg, rgb(64, 124, 164) 0.00%,rgb(44, 62, 80) 100.00%);
 }
 .polkio-icontext {
   display: flex;
@@ -543,14 +575,20 @@
   padding: 16px 20px;
   position: relative;
   box-sizing: content-box;
+  transition: 0.3s;
   align-items: center;
   flex-shrink: 0;
-  border-color: rgba(255, 255, 255, 0.20000000298023224);
+  border-color: rgba(255, 255, 255, 0.05);
   border-style: solid;
   border-width: 1px;
   border-radius: 12px;
   justify-content: space-between;
   text-decoration: none;
+}
+.polkio-link11:hover {
+  border: none;
+  border-style: none;
+  background-image: linear-gradient(90deg, rgb(212, 33, 33) 0.00%,rgb(44, 62, 80) 97.00%);
 }
 .polkio-icontext1 {
   display: flex;
@@ -632,15 +670,20 @@
   padding: 16px 20px;
   position: relative;
   box-sizing: content-box;
+  transition: 0.3s;
   align-items: center;
   flex-shrink: 0;
-  border-color: rgba(255, 255, 255, 0.20000000298023224);
+  border-color: rgba(255, 255, 255, 0.05);
   border-style: solid;
   border-width: 1px;
   border-radius: 12px;
   margin-bottom: 16px;
   justify-content: space-between;
   text-decoration: none;
+}
+.polkio-link13:hover {
+  border-style: hidden;
+  background-image: linear-gradient(270deg, rgb(212, 33, 33) 19.00%,rgb(204, 207, 210) 96.00%);
 }
 .polkio-icontext2 {
   display: flex;
@@ -697,14 +740,19 @@
   padding: 16px 20px;
   position: relative;
   box-sizing: content-box;
+  transition: 0.3s;
   align-items: center;
   flex-shrink: 0;
-  border-color: rgba(255, 255, 255, 0.20000000298023224);
+  border-color: rgba(255, 255, 255, 0.05);
   border-style: solid;
   border-width: 1px;
   border-radius: 12px;
   justify-content: space-between;
   text-decoration: none;
+}
+.polkio-link15:hover {
+  border-style: hidden;
+  background-image: linear-gradient(90deg, rgb(175, 88, 204) 0.00%,rgb(44, 62, 80) 100.00%);
 }
 .polkio-icontext3 {
   display: flex;
@@ -746,6 +794,9 @@
   position: relative;
 }
 @media(max-width: 991px) {
+  .polkio-polkio {
+    height: 1391px;
+  }
   .polkio-headergradient {
     flex: 1;
     left: 0px;

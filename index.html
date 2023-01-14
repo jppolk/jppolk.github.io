@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="english">
   <head>
-    <title>polk.io</title>
+    <title>polk__io</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -32,6 +32,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -40,11 +42,20 @@
 
       <div class="polkio-container">
         <div class="polkio-polkio">
+          
+          <svg width="100%" height="100%" opacity="0.2" z-index="-99" >
+            <filter id="noise">
+              <feTurbulence type="fractalNoise" baseFrequency=".6" numOctaves="4" stitchTiles="stitch"></feTurbulence>
+              <feColorMatrix type="saturate" values="0"></feColorMatrix>
+            </filter>
+            <rect width="100%" height="100%" filter="url(#noise)"></rect>
+          </svg>
+
           <div class="polkio-headergradient">
             <div class="polkio-container1">
               <img
                 alt="image"
-                src="public/playground_assets/header-gradient-1500h.png"
+                src="public/playground_assets/header-gradient.svg"
                 loading="eager"
                 class="polkio-image"
               />
@@ -54,7 +65,7 @@
             <div class="polkio-container2">
               <img
                 alt="image"
-                src="public/playground_assets/footer-gradient-700h.png"
+                src="public/playground_assets/footer-gradient.svg"
                 loading="eager"
               />
             </div>
