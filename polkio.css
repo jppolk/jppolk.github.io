@@ -1,30 +1,25 @@
 .polkio-container {
-  
- 
+  min-height: 100vh;
 }
 .polkio-polkio {
   width: 100%;
   height: 100%;
-  min-height: 1400px;
   display: flex;
   overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
+  position: relative;
+  min-height: var(--dl-size-size-maxwidth);
+  align-items: center;
   flex-shrink: 0;
   border-color: transparent;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: rgba(10, 10, 13, 1);
 }
 .polkio-headergradient {
-  top: 0px;
-  flex: 1;
-  left: 0px;
-  right: 0px;
-  width: auto;
+  width: 100%;
   height: 100%;
-  margin: auto;
   display: flex;
   overflow: hidden;
-  position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
@@ -33,14 +28,12 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 368.5px;
+  height: 100%;
   display: flex;
   position: absolute;
   align-items: flex-start;
 }
 .polkio-image {
-  top: 0px;
-  left: 0px;
   width: 100%;
   position: absolute;
   object-fit: cover;
@@ -48,7 +41,7 @@
 .polkio-footergradient {
   left: 0px;
   right: 0px;
-  width: auto;
+  width: 100%;
   bottom: 0px;
   height: 100%;
   margin: auto;
@@ -61,7 +54,6 @@
 }
 .polkio-container2 {
   top: 0px;
-  flex: 1;
   left: 0px;
   right: 0px;
   width: 100%;
@@ -73,11 +65,7 @@
 }
 .polkio-image1 {
   left: 0px;
-  right: 0px;
   width: 100%;
-  bottom: 0px;
-  height: auto;
-  margin: auto;
   position: absolute;
   object-fit: cover;
 }
@@ -112,67 +100,36 @@
   margin-bottom: 0;
 }
 .polkio-header {
-  top: 86px;
+  top: 0px;
   left: 0px;
-  right: 0px;
-  width: 520px;
-  height: 192px;
-  margin: auto;
+  width: 100%;
+  height: auto;
   display: flex;
-  padding: 0;
   position: absolute;
   align-self: auto;
   box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  border-radius: 0px 0px 0px 0px;
-  flex-direction: row;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
   background-color: transparent;
 }
 .polkio-p-o-l-k-i-o1 {
-  top: 0px;
-  left: 0px;
-  right: 0px;
   width: 215px;
   height: 95px;
-  margin: auto;
-  position: absolute;
-}
-.polkio-short-bio {
-  top: 126px;
-  left: 0px;
-  width: 100%;
-  height: 66px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  border-radius: 0px 0px 0px 0px;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
 }
 .polkio-text04 {
   width: 520px;
   height: auto;
-  position: absolute;
   font-size: 21px;
   align-self: auto;
   font-style: Light;
   text-align: center;
-  font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+  font-family: Bahnschrift;
   font-weight: 300;
   line-height: 33px;
+  padding-top: var(--dl-space-space-twounits);
   font-stretch: normal;
   text-decoration: none;
 }
@@ -213,8 +170,19 @@
 .polkio-text18 {
   color: #a8d6ef;
 }
+.polkio-short-bio {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+}
 .polkio-frame1965 {
-  top: 330px;
+  top: 350px;
   left: 0px;
   right: 0px;
   width: 248px;
@@ -377,35 +345,61 @@
   top: 454px;
   left: 0px;
   right: 0px;
-  width: 400px;
+  width: fit-content;
   margin: auto;
   display: flex;
+  overflow: visible;
   position: absolute;
-  align-items: flex-start;
-  border-color: transparent;
-  flex-direction: column;
-}
-.polkio-main {
-  display: flex;
-  position: relative;
-  align-self: center;
+  transform: scale(1);
   align-items: center;
   border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.polkio-main {
+  width: 100%;
+  display: flex;
+  position: static;
+  align-self: center;
+  align-items: center;
+  margin-left: 0px;
+  border-color: transparent;
+  margin-right: 0px;
+  padding-left: var(--dl-space-space-halfunit);
   margin-bottom: 35px;
+  padding-right: var(--dl-space-space-halfunit);
   flex-direction: column;
   justify-content: center;
 }
 .polkio-img-link {
-  width: 400px;
-  height: 106px;
+  width: 100%;
+  height: 100%;
   position: relative;
   border-color: transparent;
   border-radius: 12px;
   margin-bottom: 16px;
 }
+.polkio-text22 {
+  top: 81px;
+  left: 21px;
+  color: var(--dl-color-dark-lightgray);
+  height: auto;
+  margin: auto;
+  opacity: 0.60;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
 .polkio-frame1966 {
-  width: 400px;
-  height: 71px;
+  width: 100%;
+  height: 100%;
   display: flex;
   position: relative;
   align-items: center;
@@ -419,71 +413,62 @@
   display: contents;
 }
 .polkio-link05 {
-  top: 0px;
-  left: 0px;
   width: 202px;
-  height: 71px;
+  height: 100%;
   display: flex;
-  position: absolute;
   align-items: center;
   flex-direction: row;
   justify-content: center;
   text-decoration: none;
 }
 .polkio-image1 {
-  top: 0px;
-  left: 0px;
-  width: auto;
-  height: auto;
-  position: absolute;
+  width: 100%;
+  height: 100%;
   align-self: stretch;
-  transition: 0.3s;
+  transition: 0.2s;
   border-color: transparent;
   border-radius: 12px;
 }
 .polkio-image1:hover {
-  filter: hue-rotate(160deg) contrast(120%);
-  border-radius: 22px;
+  filter: hue-rotate(155deg) contrast(120%);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  border-radius: 18px;
 }
 .polkio-link06 {
   display: contents;
 }
 .polkio-link07 {
-  top: 0px;
-  right: 0px;
   width: 187px;
-  height: 71px;
+  height: 100%;
   display: flex;
-  position: absolute;
   align-items: center;
   flex-direction: row;
   justify-content: center;
   text-decoration: none;
 }
 .polkio-image2 {
-  top: 0px;
-  left: 0px;
-  width: auto;
-  height: auto;
-  position: absolute;
-  align-self: stretch;
-  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  align-self: auto;
+  transition: 0.2s;
   border-color: transparent;
   border-radius: 13px;
 }
 .polkio-image2:hover {
-  filter: saturate(70%) hue-rotate(133deg);
-  border-radius: 22px;
+  filter: saturate(70%) hue-rotate(120deg);
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  border-radius: 18px;
 }
 .polkio-link08 {
   display: contents;
 }
 .polkio-link09 {
-  width: 358px;
+  width: 100%;
   display: flex;
   padding: 16px 20px;
-  position: relative;
-  box-sizing: content-box;
+  position: static;
   transition: 0.3s;
   align-items: center;
   flex-shrink: 0;
@@ -496,10 +481,12 @@
   text-decoration: none;
 }
 .polkio-link09:hover {
-  border-style: none;
-  background-image: linear-gradient(90deg, rgb(64, 124, 164) 0.00%,rgb(44, 62, 80) 100.00%);
+  border-color: rgba(32, 187, 103, 0.8);
+  border-style: hidden;
+  background-image: linear-gradient(90deg, rgb(54, 181, 163) 0.00%,rgb(44, 62, 80) 100.00%);
 }
 .polkio-icontext {
+  width: auto;
   display: flex;
   position: relative;
   align-items: center;
@@ -552,7 +539,7 @@
   height: 8px;
   position: absolute;
 }
-.polkio-text22 {
+.polkio-text23 {
   color: var(--dl-color-dark-primarytext);
   height: auto;
   align-self: auto;
@@ -571,11 +558,10 @@
   display: contents;
 }
 .polkio-link11 {
-  width: 358px;
+  width: 100%;
   display: flex;
   padding: 16px 20px;
-  position: relative;
-  box-sizing: content-box;
+  position: static;
   transition: 0.3s;
   align-items: center;
   flex-shrink: 0;
@@ -587,8 +573,8 @@
   text-decoration: none;
 }
 .polkio-link11:hover {
-  border: none;
-  border-style: none;
+  border-color: #bf2525;
+  border-style: hidden;
   background-image: linear-gradient(90deg, rgb(212, 33, 33) 0.00%,rgb(44, 62, 80) 97.00%);
 }
 .polkio-icontext1 {
@@ -622,7 +608,7 @@
   height: 8px;
   position: absolute;
 }
-.polkio-text23 {
+.polkio-text24 {
   color: var(--dl-color-dark-primarytext);
   height: auto;
   align-self: auto;
@@ -638,15 +624,18 @@
   position: relative;
 }
 .polkio-other {
+  width: 100%;
   display: flex;
-  position: relative;
+  position: static;
   align-self: center;
   align-items: center;
   border-color: transparent;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
   flex-direction: column;
   justify-content: center;
 }
-.polkio-text24 {
+.polkio-text25 {
   color: var(--dl-color-dark-lightgray);
   height: auto;
   opacity: 0.60;
@@ -666,11 +655,10 @@
   display: contents;
 }
 .polkio-link13 {
-  width: 358px;
+  width: 100%;
   display: flex;
   padding: 16px 20px;
-  position: relative;
-  box-sizing: content-box;
+  position: static;
   transition: 0.3s;
   align-items: center;
   flex-shrink: 0;
@@ -683,8 +671,9 @@
   text-decoration: none;
 }
 .polkio-link13:hover {
-  border-style: hidden;
-  background-image: linear-gradient(270deg, rgb(212, 33, 33) 19.00%,rgb(204, 207, 210) 96.00%);
+  border-color: rgba(210, 49, 49, 0.88);
+  border-style: none;
+  background-image: linear-gradient(270deg, rgb(212, 33, 33) 18.00%,rgb(41, 58, 74) 94.00%);
 }
 .polkio-icontext2 {
   display: flex;
@@ -717,7 +706,7 @@
   height: 13px;
   position: absolute;
 }
-.polkio-text25 {
+.polkio-text26 {
   color: var(--dl-color-dark-primarytext);
   height: auto;
   align-self: auto;
@@ -736,11 +725,10 @@
   display: contents;
 }
 .polkio-link15 {
-  width: 358px;
+  width: 100%;
   display: flex;
   padding: 16px 20px;
-  position: relative;
-  box-sizing: content-box;
+  position: static;
   transition: 0.3s;
   align-items: center;
   flex-shrink: 0;
@@ -752,7 +740,8 @@
   text-decoration: none;
 }
 .polkio-link15:hover {
-  border-style: hidden;
+  border-color: rgba(228, 202, 44, 0.75);
+  border-style: none;
   background-image: linear-gradient(90deg, rgb(175, 88, 204) 0.00%,rgb(44, 62, 80) 100.00%);
 }
 .polkio-icontext3 {
@@ -779,7 +768,7 @@
   position: absolute;
   border-color: transparent;
 }
-.polkio-text27 {
+.polkio-text28 {
   color: var(--dl-color-dark-primarytext);
   height: auto;
   align-self: auto;
@@ -795,47 +784,14 @@
   position: relative;
 }
 @media(max-width: 991px) {
-  .polkio-polkio {
-    height: 1391px;
-  }
-  .polkio-headergradient {
-    flex: 1;
-    left: 0px;
-    right: 0px;
-    width: auto;
-    margin: auto;
-  }
   .polkio-container1 {
-    flex: 1;
-    left: 0px;
-    right: 0px;
     height: 100%;
-    margin: auto;
   }
   .polkio-image {
-    top: 0px;
-    left: 0px;
     height: 100%;
-  }
-  .polkio-footergradient {
-    width: auto;
   }
   .polkio-image1 {
     height: 100%;
-  }
-  .polkio-header {
-    left: 0px;
-    right: 0px;
-    width: 520px;
-    margin: auto;
-  }
-  .polkio-text04 {
-    left: 0px;
-    right: 0px;
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 33px;
-    text-decoration: none;
   }
   .polkio-text05 {
     color: #a8d6f0;
@@ -889,21 +845,18 @@
   .polkio-text19 {
     color: #a8d6ef;
   }
+  .polkio-link13 {
+    width: 100%;
+  }
+  .polkio-link15 {
+    width: 100%;
+  }
 }
 @media(max-width: 479px) {
-  .polkio-header {
-    width: auto;
-    height: 192px;
-  }
-  .polkio-short-bio {
-    width: 100%;
-    flex-direction: row;
-  }
   .polkio-text04 {
-    left: 0px;
-    right: 0px;
     width: 300px;
-    margin: auto;
-    text-align: center;
+  }
+  .polkio-links {
+    width: 100%;
   }
 }
