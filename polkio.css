@@ -126,7 +126,7 @@
   align-self: auto;
   font-style: Light;
   text-align: center;
-  font-family: Bahnschrift;
+  font-family: Bahnschrift, Inter, Arial;
   font-weight: 300;
   line-height: 33px;
   padding-top: var(--dl-space-space-twounits);
