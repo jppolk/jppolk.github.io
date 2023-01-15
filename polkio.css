@@ -3,7 +3,7 @@
 }
 .polkio-polkio {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -422,7 +422,7 @@
   text-decoration: none;
 }
 .polkio-image1 {
-  width: 100%;
+  width: auto;
   height: 100%;
   align-self: auto;
   transition: 0.2s;
@@ -448,7 +448,6 @@
   text-decoration: none;
 }
 .polkio-image2 {
-  width: 100%;
   height: 100%;
   align-self: auto;
   transition: 0.2s;
