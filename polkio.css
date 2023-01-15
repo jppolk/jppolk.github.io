@@ -424,7 +424,7 @@
 .polkio-image1 {
   width: 100%;
   height: 100%;
-  align-self: stretch;
+  align-self: auto;
   transition: 0.2s;
   border-color: transparent;
   border-radius: 12px;
@@ -453,7 +453,7 @@
   align-self: auto;
   transition: 0.2s;
   border-color: transparent;
-  border-radius: 13px;
+  border-radius: 12px;
 }
 .polkio-image2:hover {
   filter: saturate(70%) hue-rotate(120deg);
